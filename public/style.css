@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	overscroll-behavior: contain;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.score {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.score h1 {
+	display: inline;
+}
+
+.nav {
+	margin: auto;
+	width: 400px;
+}
+.nav div {
+	display: flex;
+	justify-content: space-evenly;
+}
+.nav button {
+	font-size: 2rem;
+	padding: 0 30px;
+	margin: 2px 0;
+}
