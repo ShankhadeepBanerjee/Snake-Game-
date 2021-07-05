@@ -18,7 +18,7 @@ const hscoreboard = document.querySelector("#hi-score");
 
 
 
-
+// For Mobile View 
 if(innerWidth < 500){
     cellSize = 20;
     hCells = floor_(innerWidth/cellSize);
@@ -167,6 +167,10 @@ function keyPressed(e) {
     }
 }
 
+
+
+
+// For Mobile interaction
 let x = 0;
 let y = 0;
 document
@@ -194,7 +198,8 @@ document.addEventListener("touchend", (e) => {
 
 
 
-let button;
+
+
 function setup() {
     createCanvas(canvWidth, canvHeight);
     frameRate(fr);
